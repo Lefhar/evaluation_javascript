@@ -1,0 +1,2 @@
+function multplication()
+var nbr
