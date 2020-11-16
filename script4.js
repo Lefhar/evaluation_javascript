@@ -1,5 +1,5 @@
-let pu = parseFloat(window.prompt("Entré le prix unitaire"))
-let qtecom = parseFloat(window.prompt("Entré la quantité"))
+let pu = parseFloat(window.prompt("Entrer le prix unitaire"))
+let qtecom = parseFloat(window.prompt("Entrer la quantité"))
 let tot = pu * qtecom
 let remise = 0
 let port = 2

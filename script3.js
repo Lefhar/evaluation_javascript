@@ -2,7 +2,7 @@
 var tab = ["Audrey", "Aurélien", "Flavien", "Jérémy", "Laurent", "Melik", "Nouara", "Salem", "Samuel", "Stéphane"];// notre tableau
 var saisi = window.prompt("voici la liste des prénoms "+tab+" entrer le prénom à effacer")// notre fenetre de saisi du prénom
 
-
+	document.write("Voici la liste "+tab+"<br><br>")
 var suprenommin = String(saisi).charAt(0).toUpperCase() + String(saisi).slice(1).toLowerCase();// on met la premiére lettre en majuscule et le reste du mot en minuscule
 
 //maintenant on lance la recherche l'effacement et le retour du tableau
@@ -14,10 +14,11 @@ if(tab.includes(suprenommin))// on lance la recherche du mot saisi par suprenomm
 
 	alert("Voici la nouvelle liste "+tab)//on affiche le resultat
 	console.log(tab)//on affiche dans la console le resultat
+		document.write("Voici la nouvelle liste "+tab)
 }
 else
 {
-	alert("je n'ai pas trouvé le prénom")
+	alert("je n'est pas trouvé le prénom")
 	console.log(tab)//on affiche dans la console le resultat
 }
-//fin
+//fin 
