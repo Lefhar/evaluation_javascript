@@ -3,7 +3,7 @@ var jeune =0//valeur par defaut 0
 var jeunes ="s"// pour le pluriel 
 var moyen =0//valeur par defaut 0
 var moyens ="s"// pour le pluriel 
-var vioque =0//valeur par defaut 0
+var senior =0//valeur par defaut 0
 var saisi = 0//valeur par defaut 0
 
  do 
@@ -22,10 +22,10 @@ var saisi = 0//valeur par defaut 0
                 moyen++
             }//on ferme la condition
 
-            //si la saisi est supérieur à 40 ans alors on rajoute 1 vioque
+            //si la saisi est supérieur à 40 ans alors on rajoute 1 senior
             if(saisi > 40 )
             { 
-                vioque++
+                senior++
             }//on ferme la condition
     }//on ferme do
 
@@ -34,5 +34,5 @@ var saisi = 0//valeur par defaut 0
     if(jeune<=1){var jeunes =""}// pour le singulier 
     if(moyen<=1){var moyens =""}// pour le singulier 
 
- document.write("il y a "+jeune+ " jeune"+jeunes+", "+moyen+" moyen"+moyens+", "+vioque+ " vieux ")//on affiche les données
+ document.write("il y a "+jeune+ " jeune"+jeunes+", "+moyen+" moyen"+moyens+", "+senior+ " vieux ")//on affiche les données
 //fin

@@ -17,7 +17,7 @@ if(tab.includes(suprenommin))// on lance la recherche du mot saisi par suprenomm
 }
 else
 {
-	alert("je n'est pas trouvé le prénom")
+	alert("je n'ai pas trouvé le prénom")
 	console.log(tab)//on affiche dans la console le resultat
 }
 //fin
