@@ -18,3 +18,4 @@ function multplication()//fonction multiplication
     document.write(result)
 }
 //fin
+multplication();
