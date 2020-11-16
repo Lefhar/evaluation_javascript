@@ -130,13 +130,13 @@ function verif()
         var controlcgu = true;//on retourne true pour cette variable
     }
 
-    if(controlnom&&controlprenom&&controlmail&&controldate&&controlmescommandes&&controlquestion&&controlcgu)//maintenant on s'assure que tout est valide 
-    {
-        return true;
-    }
-    else
-    {
-        //sinon on renvoi bien un false
-        return false;
-    }
+        if(controlnom&&controlprenom&&controlmail&&controldate&&controlmescommandes&&controlquestion&&controlcgu)//maintenant on s'assure que tout est valide 
+        {
+            return true;
+        }
+        else
+        {
+            //sinon on renvoi bien un false
+            return false;
+        }
 }
