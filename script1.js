@@ -8,7 +8,7 @@ var saisi = 0//valeur par defaut 0
 
  do 
     {//on lui dit de faire
-    saisi=parseInt(window.prompt("Entrez votre âge"))// on demande l'âge
+    saisi=parseInt(window.prompt("Entrez votre âge (on s'arrête des un centenaire)"))// on demande l'âge
    
             // si saisi est inférieur à 20 alors on met +1 a jeune
             if(saisi < 20)
@@ -29,10 +29,10 @@ var saisi = 0//valeur par defaut 0
             }//on ferme la condition
     }//on ferme do
 
-    while(saisi<=100)//boucle tant que la saisi est pas de 100 ou plus
+    while(saisi<100)//boucle tant que la saisi est pas de 100 ou plus
 
-    if(jeune==1){var jeunes =""}// pour le singulier 
-    if(moyen==1){var moyens =""}// pour le singulier 
+    if(jeune<=1){var jeunes =""}// pour le singulier 
+    if(moyen<=1){var moyens =""}// pour le singulier 
 
- alert("il y a "+jeune+ " jeune"+jeunes+", "+moyen+" moyen"+moyens+", "+vioque+ " vieux ")//on affiche les données
+ document.write("il y a "+jeune+ " jeune"+jeunes+", "+moyen+" moyen"+moyens+", "+vioque+ " vieux ")//on affiche les données
 //fin
